@@ -187,7 +187,7 @@
 				endif;
                 ?>
 				<!--<h1><?php echo esc_html( $title ); ?></h1>-->
-                <h1><div class="element"></div></h1>
+                <div class="element"></div>
 
 				<?php 
 				if ( !empty( $desc ) ) {
