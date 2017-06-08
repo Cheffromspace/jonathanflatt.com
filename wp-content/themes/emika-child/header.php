@@ -42,9 +42,9 @@
 		if ( $enable_title == 1 ) { 
 			$title = esc_html( get_theme_mod('emika_home_title') );
 
-				if ( empty($title) ) {
-					$title = get_bloginfo('name');
-				}
+			if ( empty($title) ) {
+				$title = get_bloginfo('name');
+			}
 
 		} else {
 			$title = '';
@@ -53,9 +53,9 @@
 		if ( $enable_desc == 1 ) { 
 			$desc = esc_html( get_theme_mod('emika_home_description') );
 
-				if ( empty($desc) ) {
-					$desc = get_bloginfo('description');
-				}
+			if ( empty($desc) ) {
+				$desc = get_bloginfo('description');
+			}
 
 		} else {
 			$desc = '';
@@ -88,7 +88,7 @@
 				} 
 			}
 		}
-						
+		
 		$desc = '';
 		if ( $enable_post_date == 1 ) { $desc .= esc_html( emika_relative_time( get_the_date() ) ); } else { }
 		if ( $enable_post_date == 1 and $enable_post_author == 1 ) { $desc .= esc_html( ' / ' ); } else { }
@@ -129,7 +129,7 @@
 		$parallax = 'page-header-parallax';
 		
 	endif;
-	?>
+    ?>
 
 	<header id="masthead" class="<?php echo esc_attr( $header_class_1 ); ?>" role="banner">
 		<div class="<?php echo esc_attr( $overlay ); ?>"></div>
@@ -149,17 +149,17 @@
 						$logo = Kirki::get_option( 'emika_customizer', 'emika_logo' );
 
 						if ( !empty($logo) ) { 
-						?>
+                        ?>
 						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $logo ); ?>" title="<?php esc_attr( bloginfo( 'name' ) ); ?>" alt="logo"></a>
 						<?php
 						} else {
-						?>
+                        ?>
 							<span>
 								<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a>
 							</span>
 						<?php
 						}
-						?>
+                        ?>
 
 					</div>
 					<?php emika_navigation(); ?>
@@ -178,19 +178,20 @@
 
 			<div class="<?php echo esc_attr( $header_class_2 ); ?>">
 				<?php
-					if ( is_single() ) :
-						$enable_category = Kirki::get_option( 'emika_customizer', 'emika_single_page_category_enable' );
-						if ( $enable_category == 1 ) {
-							$category = get_the_category_list( esc_html__( '', 'emika' ) );
-							echo '<span class="header-category">' . $category . '</span>';
-						}
-					endif;
+				if ( is_single() ) :
+					$enable_category = Kirki::get_option( 'emika_customizer', 'emika_single_page_category_enable' );
+					if ( $enable_category == 1 ) {
+						$category = get_the_category_list( esc_html__( '', 'emika' ) );
+						echo '<span class="header-category">' . $category . '</span>';
+					}
+				endif;
                 ?>
-				<h1><div class="element"></div></h1>
+				<!--<h1><?php echo esc_html( $title ); ?></h1>-->
+
 
 				<?php 
 				if ( !empty( $desc ) ) {
-				?>
+                ?>
 				<span><?php echo esc_html( $desc ); ?></span>
 				<?php } ?>
 			</div>

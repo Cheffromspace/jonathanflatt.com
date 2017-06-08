@@ -6508,6 +6508,7 @@
     <Compile Include="wp-content\themes\create\single.php" />
     <Compile Include="wp-content\themes\create\style.css" />
     <Compile Include="wp-content\themes\emika-child\functions.php" />
+    <Compile Include="wp-content\themes\emika-child\header.php" />
     <Compile Include="wp-content\themes\emika-child\page-home.php" />
     <Compile Include="wp-content\themes\emika\assets\css\bootstrap.css" />
     <Compile Include="wp-content\themes\emika\assets\css\font-awesome.css" />
@@ -8798,6 +8799,7 @@
     <Folder Include="wp-content\themes\create\js" />
     <Folder Include="wp-content\themes\create\languages" />
     <Folder Include="wp-content\themes\create" />
+    <Folder Include="wp-content\themes\emika-child\js\" />
     <Folder Include="wp-content\themes\emika\assets\css" />
     <Folder Include="wp-content\themes\emika\assets\fonts" />
     <Folder Include="wp-content\themes\emika\assets\images" />
@@ -9002,6 +9004,7 @@
     <Folder Include="wp-includes" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="wp-content\themes\emika-child\js\custom.js" />
     <Content Include="wp-content\themes\emika-child\style.css" />
   </ItemGroup>
 </Project>
