@@ -6508,6 +6508,7 @@
     <Compile Include="wp-content\themes\create\single.php" />
     <Compile Include="wp-content\themes\create\style.css" />
     <Compile Include="wp-content\themes\emika-child\functions.php" />
+    <Compile Include="wp-content\themes\emika-child\page-home.php" />
     <Compile Include="wp-content\themes\emika\assets\css\bootstrap.css" />
     <Compile Include="wp-content\themes\emika\assets\css\font-awesome.css" />
     <Compile Include="wp-content\themes\emika\assets\css\ie.css" />
