@@ -1,0 +1,740 @@
+# Translation of Themes - Create in Romanian
+# This file is distributed under the same license as the Themes - Create package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-04 21:27:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: Themes - Create\n"
+
+#. Theme Name of the plugin/theme
+msgid "Create"
+msgstr "Creează"
+
+#: inc/customizer-includes/customizer-theme-options.php:101
+msgid "All Categories"
+msgstr "Toate categoriile"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s răspuns la &bdquo;%2$s&rdquo;"
+msgstr[1] "%1$s răspunsuri la &bdquo;%2$s&rdquo;"
+msgstr[2] "%1$s de răspunsuri la &bdquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Un răspuns la &bdquo;%s&rdquo;"
+
+#: inc/customizer.php:139
+msgid "Refresh the customizer page after saving to view reset effects"
+msgstr "Reîmprospătează pagina personalizatorului după salvare pentru a vedea efectele resetării"
+
+#: inc/customizer-includes/upgrade-button/class-customize.php:77
+msgid "Upgrade Now"
+msgstr "Actualizează acum"
+
+#: inc/customizer-includes/upgrade-button/class-customize.php:76
+msgid "Create Pro"
+msgstr "Creează Pro"
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr "Căutare"
+
+#: searchform.php:14 searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr "Caută după:"
+
+#: inc/template-tags.php:35
+msgid "Page"
+msgstr "Pagină"
+
+#: inc/template-tags.php:34
+msgid "Next page"
+msgstr "Pagina următoare"
+
+#: inc/template-tags.php:33
+msgid "Previous page"
+msgstr "Pagina anterioară"
+
+#: inc/metabox.php:213
+msgid "Create Options"
+msgstr "Opțiuni Creează"
+
+#: inc/metabox.php:86
+msgid "Header Featured Image Options"
+msgstr "Opțiuni imagine reprezentativă antet"
+
+#: inc/extras.php:299
+msgid "Scroll Up"
+msgstr "Derulează în sus"
+
+#: inc/default-options.php:409
+msgid "Disable Image"
+msgstr "Dezactivează imaginea"
+
+#: inc/default-options.php:399
+msgid "Full Size"
+msgstr "Dimensiune completă"
+
+#: inc/default-options.php:373
+msgid "Disable"
+msgstr "Dezactivează"
+
+#: inc/default-options.php:368
+msgid "Enable"
+msgstr "Activează"
+
+#: inc/default-options.php:337 inc/default-options.php:363
+#: inc/default-options.php:389
+msgid "Default"
+msgstr "Implicit"
+
+#: inc/default-options.php:319
+msgid "Infinite Scroll (Click)"
+msgstr "Derulare infinită (clic)"
+
+#: inc/default-options.php:315
+msgid "Infinite Scroll (Scroll)"
+msgstr "Derulare infinită (derulare)"
+
+#: inc/default-options.php:311
+msgid "Numeric"
+msgstr "Numeric"
+
+#: inc/default-options.php:307
+msgid "Default(Older Posts/Newer Posts)"
+msgstr "Implicit (articole mai vechi/articole mai noi)"
+
+#: inc/default-options.php:283
+msgid "Full size"
+msgstr "Dimensiune completă"
+
+#: inc/default-options.php:279 inc/default-options.php:394
+msgid "Large"
+msgstr "Mare"
+
+#: inc/default-options.php:262
+msgid "Large Image"
+msgstr "Imagine mare"
+
+#: inc/default-options.php:258
+msgid "Full Image"
+msgstr "Imagine completă"
+
+#: inc/default-options.php:254 inc/default-options.php:287
+#: inc/default-options.php:404
+msgid "Featured Image"
+msgstr "Imagine reprezentativă"
+
+#: inc/default-options.php:238
+msgid "Show Full Content (No Featured Image)"
+msgstr "Arată conținut întreg (fără imagine reprezentativă)"
+
+#: inc/default-options.php:234
+msgid "Show Excerpt"
+msgstr "Arată rezumat"
+
+#: inc/default-options.php:199 inc/default-options.php:218
+#: inc/default-options.php:347
+msgid "No Sidebar ( Full Width )"
+msgstr "Fără bară laterală (lățime completă)"
+
+#: inc/default-options.php:195 inc/default-options.php:214
+#: inc/default-options.php:342
+msgid "Primary Sidebar, Content"
+msgstr "Bară laterală principală, conținut"
+
+#: inc/default-options.php:178
+msgid "False"
+msgstr "Fals"
+
+#: inc/default-options.php:174
+msgid "Wait"
+msgstr "Așteaptă"
+
+#: inc/default-options.php:170
+msgid "True"
+msgstr "Adevărat"
+
+#: inc/default-options.php:38
+msgid "Search..."
+msgstr "Caut..."
+
+#: inc/default-options.php:32
+msgid "[ . . . ]"
+msgstr "[ . . . ]"
+
+#: inc/customizer.php:41
+msgid "Check to reset all settings to default"
+msgstr "Bifează pentru a reseta toate setările la implicit"
+
+#: inc/customizer.php:30
+msgid "Reset all settings"
+msgstr "Resetează toate setările"
+
+#: inc/customizer.php:28
+msgid "Caution: Reset all settings to default. Refresh the page after save to view full effects."
+msgstr "Atenție: resetează toate setările la implicit. Reîmprospătează pagina după salvare pentru a vedea efectele complete."
+
+#: inc/customizer-includes/customizer-theme-options.php:314
+msgid "Default Display Text in Search"
+msgstr "Text afișat implicit în căutare"
+
+#: inc/customizer-includes/customizer-theme-options.php:304
+msgid "Search Options"
+msgstr "Opțiuni de căutare"
+
+#: inc/customizer-includes/customizer-theme-options.php:301
+msgid "Change default placeholder text in Search."
+msgstr "Modifică textul implicit pentru substituent în căutare."
+
+#: inc/customizer-includes/customizer-theme-options.php:292
+msgid "Check to disable Scroll Up"
+msgstr "Bifează pentru a dezactiva derularea în sus"
+
+#: inc/customizer-includes/customizer-theme-options.php:282
+msgid "Scrollup Options"
+msgstr "Opțiuni derulare în sus"
+
+#: inc/customizer-includes/customizer-theme-options.php:271
+msgid "Pagination type"
+msgstr "Tip paginație"
+
+#: inc/customizer-includes/customizer-theme-options.php:254
+msgid "Pagination Options"
+msgstr "Opțiuni paginație"
+
+#: inc/customizer-includes/customizer-theme-options.php:246
+msgid "Infinite Scroll Options requires <a target=\"_blank\" href=\"%s\">JetPack Plugin</a> with Infinite Scroll module Enabled."
+msgstr "Opțiunile pentru derulare infinită au nevoie de <a target=\"_blank\" href=\"%s\">modulul Jetpack</a> cu extensia Derulare infinită activată."
+
+#: inc/customizer-includes/customizer-theme-options.php:228 inc/metabox.php:87
+msgid "Single Page/Post Image Layout "
+msgstr "Aranjament pagină singulară/imagine articol"
+
+#: inc/customizer-includes/customizer-theme-options.php:208
+msgid "Archive Content Layout"
+msgstr "Aranjament conținut arhivă"
+
+#: inc/customizer-includes/customizer-theme-options.php:182
+msgid "Default Layout"
+msgstr "Aranjament implicit"
+
+#: inc/customizer-includes/customizer-theme-options.php:163
+msgid "Frontpage Posts Layout"
+msgstr "Aranjament articole pe pagina din față"
+
+#: inc/customizer-includes/customizer-theme-options.php:146 inc/metabox.php:85
+msgid "Layout Options"
+msgstr "Opțiuni aranjament"
+
+#: inc/customizer-includes/customizer-theme-options.php:132
+msgid "Select Categories"
+msgstr "Selectează categorii"
+
+#: inc/customizer-includes/customizer-theme-options.php:122
+msgid "Homepage / Frontpage Options"
+msgstr "Opțiuni prima pagină / pagina din față"
+
+#: inc/customizer-includes/customizer-theme-options.php:119
+msgid "Only posts that belong to the categories selected here will be displayed on the front page"
+msgstr "Numai articolele care aparțin categoriilor selectate aici vor fi afișate pe pagina din față"
+
+#: inc/customizer-includes/customizer-theme-options.php:113
+msgid "Hold down the Ctrl (windows) / Command (Mac) button to select multiple options."
+msgstr "Ține apăsat butonul Ctrl (windows) / Command (Mac) pentru a selecta mai multe opțiuni."
+
+#: inc/customizer-includes/customizer-theme-options.php:80
+msgid "Read More Text"
+msgstr "Text Citește mai mult"
+
+#: inc/customizer-includes/customizer-theme-options.php:66
+msgid "Excerpt Length (words)"
+msgstr "Lungime rezumat (cuvinte)"
+
+#: inc/customizer-includes/customizer-theme-options.php:59
+msgid "Excerpt length. Default is 40 words"
+msgstr "Lungime rezumat. Implicit sunt 40 de cuvinte"
+
+#: inc/customizer-includes/customizer-theme-options.php:49
+msgid "Excerpt Options"
+msgstr "Opțiuni rezumat"
+
+#: inc/customizer-includes/customizer-theme-options.php:36
+msgid "Enter Custom CSS"
+msgstr "Introdu CSS personalizat"
+
+#: inc/customizer-includes/customizer-theme-options.php:26
+msgid "Custom CSS Options"
+msgstr "Opțiuni CSS personalizat"
+
+#: inc/customizer-includes/customizer-theme-options.php:23
+msgid "Custom/Inline CSS"
+msgstr "CSS personalizat/în linie"
+
+#: inc/customizer-includes/customizer-theme-options.php:13
+msgid "Theme Options"
+msgstr "Opțiuni temă"
+
+#: inc/customizer-includes/customizer-theme-options.php:10
+msgid "Basic theme Options"
+msgstr "Opțiuni de bază temă"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:113
+msgid "Image Loader"
+msgstr "Încărcător imagine"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:12
+msgid "Featured Slider"
+msgstr "Carusel reprezentativ"
+
+#: inc/extras.php:91
+msgid "By"
+msgstr "De"
+
+#: inc/extras.php:90
+msgid "Posted on"
+msgstr "Publicat pe"
+
+#: inc/default-options.php:154
+msgid "Shuffle"
+msgstr "Amestecare"
+
+#: inc/default-options.php:142
+msgid "Flip Vertical"
+msgstr "Întoarce pe verticală"
+
+#: inc/default-options.php:138
+msgid "Flip Horizontal"
+msgstr "Întoarce pe orizontală"
+
+#: inc/default-options.php:134
+msgid "Scroll Vertical"
+msgstr "Derulează pe verticală"
+
+#: inc/default-options.php:130
+msgid "Scroll Horizontal"
+msgstr "Derulează pe orizontală"
+
+#: inc/default-options.php:126
+msgid "None"
+msgstr "Nimic"
+
+#: inc/default-options.php:122
+msgid "Fade Out"
+msgstr "Dispariție"
+
+#: inc/default-options.php:118
+msgid "Fade"
+msgstr "Estompare"
+
+#: inc/default-options.php:101
+msgid "Featured Page Slider"
+msgstr "Carusel reprezentativ pe pagină"
+
+#: inc/default-options.php:97
+msgid "Demo Featured Slider"
+msgstr "Demonstrație carusel reprezentativ"
+
+#: inc/default-options.php:81 inc/default-options.php:291
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: inc/default-options.php:77
+msgid "Entire Site"
+msgstr "Sit întreg"
+
+#: inc/default-options.php:73
+msgid "Homepage / Frontpage"
+msgstr "Prima pagină / pagina din față"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:177
+msgid "Featured Page"
+msgstr "Pagină reprezentativă"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:157
+msgid "No of Slides"
+msgstr "Număr de diapozitive"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:150
+msgid "Save and refresh the page if No. of Slides is changed (Max no of slides is 20)"
+msgstr "Salvează și împrospătează pagina dacă numărul de diapozitive este modificat (numărul maxim de diapozitive este 20)"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:135
+msgid "Select Slider Type"
+msgstr "Selectează tip de carusel"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:91
+msgid "Transition Length"
+msgstr "Lungime tranziție"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:72
+msgid "Transition Delay"
+msgstr "Întârziere tranziție"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:68
+#: inc/customizer-includes/customizer-featured-slider-options.php:87
+msgid "seconds(s)"
+msgstr "secundă(e)"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:51
+msgid "Transition Effect"
+msgstr "Efect de tranziție"
+
+#: inc/customizer-includes/customizer-featured-slider-options.php:29
+msgid "Enable Slider on"
+msgstr "Activează caruselul pe"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării pentru: %s"
+
+#: inc/template-tags.php:197 sidebar.php:23
+msgid "Archives"
+msgstr "Arhive"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:195
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:191
+msgid "Archives: %s"
+msgstr "Arhive: %s"
+
+#: inc/template-tags.php:189
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Discuții"
+
+#: inc/template-tags.php:187
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:185
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Stări"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Legături"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citate"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videouri"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Imagini"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerii"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Note"
+
+#: inc/template-tags.php:171
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:171
+msgid "Day: %s"
+msgstr "Zi: %s"
+
+#: inc/template-tags.php:169
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:169
+msgid "Month: %s"
+msgstr "Lună: %s"
+
+#: inc/template-tags.php:167
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:167
+msgid "Year: %s"
+msgstr "An: %s"
+
+#: inc/template-tags.php:165
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:163
+msgid "Tag: %s"
+msgstr "Etichetă: %s"
+
+#: inc/template-tags.php:161
+msgid "Category: %s"
+msgstr "Categorie: %s"
+
+#: inc/template-tags.php:140
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: inc/template-tags.php:140
+msgid "1 Comment"
+msgstr "1 comentariu"
+
+#: inc/template-tags.php:140
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: inc/template-tags.php:134
+msgid "Tagged %1$s"
+msgstr "Etichetat %1$s"
+
+#: inc/template-tags.php:128
+msgid "Posted in %1$s"
+msgstr "Publicat în %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:126 inc/template-tags.php:132
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:109
+msgctxt "post author"
+msgid "by %s"
+msgstr "de %s"
+
+#: inc/template-tags.php:104
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicat pe %s"
+
+#: inc/template-tags.php:78
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:77
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:74
+msgid "Post navigation"
+msgstr "Navigare în articol"
+
+#: inc/template-tags.php:49
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articole mai noi <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:45
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articole mai vechi"
+
+#: inc/template-tags.php:41
+msgid "Posts navigation"
+msgstr "Navigare în articole"
+
+#: inc/structure.php:404
+msgctxt "attribution"
+msgid "by"
+msgstr "de"
+
+#: inc/structure.php:374
+msgctxt "1: Year, 2: Site Title with home URL"
+msgid "&copy; %1$s %2$s"
+msgstr "&copy; %1$s %2$s"
+
+#: inc/customizer.php:100 inc/customizer.php:111
+msgid "Important Links"
+msgstr "Legături importante"
+
+#: inc/customizer.php:88
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:84
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/customizer.php:80
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:76
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:72
+msgid "Review"
+msgstr "Recenzie"
+
+#: inc/customizer.php:68
+msgid "Donate Now"
+msgstr "Donează acum"
+
+#: inc/customizer.php:64
+msgid "Changelog"
+msgstr "Istoric modificări"
+
+#: inc/customizer.php:60
+msgid "Support"
+msgstr "Suport"
+
+#: inc/customizer.php:56
+msgid "Theme Instructions"
+msgstr "Instrucțiuni temă"
+
+#: inc/structure.php:120
+msgid "Menu"
+msgstr "Meniu"
+
+#: inc/structure.php:55
+msgid "Skip to content"
+msgstr "Sari la conținut"
+
+#. Translators: If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:259
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:157
+msgid "Your Comment"
+msgstr "Comentariul tău"
+
+#: functions.php:156
+msgid "Website"
+msgstr "Sit web"
+
+#: functions.php:155
+msgid "E-mail"
+msgstr "Email"
+
+#: functions.php:154
+msgid "Your Name"
+msgstr "Numele tău"
+
+#: functions.php:135
+msgid "Additional widget that appears only on your default homepage."
+msgstr "Piesă suplimentară care apare numai în prima pagină implicită."
+
+#: functions.php:133
+msgid "Intro Widget"
+msgstr "Piesă introducere"
+
+#: functions.php:125
+msgid "Main sidebar that appears on the left."
+msgstr "Bara laterală principală care apare în partea stângă."
+
+#: functions.php:123
+msgid "Sidebar"
+msgstr "Bară laterală"
+
+#: functions.php:64
+msgid "Social Menu"
+msgstr "Meniu social"
+
+#: functions.php:63
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#. translators: %s: Name of current post
+#: content.php:34
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Citește în continuare %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:27 inc/template-tags.php:144
+msgid "Edit"
+msgstr "Editează"
+
+#: content-page.php:20 content-single.php:23 content.php:39
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Se pare că nu putem găsi ceea ce cauți. Probabil căutarea poate ajuta."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regret, dar nu s-a potrivit nimic cu termenii tăi de căutare. Te rog încearcă din nou cu alte cuvinte cheie."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gata să-ți publici primul articol? <a href=\"%1$s\">Începe de aici</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "N-am găsit nimic"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: comments.php:53 comments.php:70
+msgid "Newer Comments &rarr;"
+msgstr "Comentarii mai noi &rarr;"
+
+#: comments.php:52 comments.php:69
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarii mai vechi"
+
+#: comments.php:51 comments.php:68
+msgid "Comment navigation"
+msgstr "Navigare în comentarii"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Încearcă căutarea în arhivele lunare. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Cele mai folosite categorii"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Se pare că nu a fost găsit nimic la această locație. Poate încerci una din legăturile de mai jos sau o căutare?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Acea pagină nu poate fi găsită."
+
+#. Author URI of the plugin/theme
+msgid "https://catchthemes.com/"
+msgstr "https://catchthemes.com/"
+
+#. Author of the plugin/theme
+msgid "Catch Themes"
+msgstr "Catch Themes"
+
+#. Theme URI of the plugin/theme
+msgid "https://catchthemes.com/themes/create/"
+msgstr "https://catchthemes.com/themes/create/"

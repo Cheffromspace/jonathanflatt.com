@@ -1,0 +1,89 @@
+.customizer-notice {
+  padding: 7px;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border: 1px solid #faebcc;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+label h2 {
+  color: #555d66;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.social-links a{
+  color: #333;
+}
+
+.customize-control-kirki-radio-image label {
+  margin-right: 10px;
+}
+
+.customize-control-kirki-radio-image img {
+  border: 1px solid #ccc;
+}
+
+.customize-control-kirki-color .wp-picker-container {
+  width: auto !important;
+}
+
+.customize-control-kirki-color .wp-picker-container a.wp-color-result {
+  display: inline-block !important;
+  padding-left: 30px !important;
+  border: 1px solid #ccc !important;
+  -webkit-box-shadow: 0 1px 0 #ccc !important;
+  box-shadow: 0 1px 0 #ccc !important;
+}
+
+.customize-control-kirki-color .wp-picker-container .wp-color-result::after {
+  background: #f7f7f7 !important;
+  color: #555 !important;
+  border-left: 1px solid #ccc !important;
+  -webkit-box-shadow: 0 1px 0 #ccc !important;
+  box-shadow: 0 1px 0 #ccc !important;
+}
+
+.customize-control-kirki input[type="text"], 
+.customize-control-kirki input[type="date"], 
+.customize-control-kirki input[type="email"], 
+.customize-control-kirki input[type="url"], 
+.customize-control-kirki input[type="tel"] {
+  padding: 3px 5px !important;
+  font-size: 14px !important;
+}
+
+.wp-picker-container input.wp-color-picker[type="text"] {
+  width: 65px !important;
+  font-size: 12px !important;
+}
+
+.customize-control-kirki-switch .switch label {
+  height: 24px !important;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#customize-control-emika_link_underline .switch input:checked + label::after,
+.customize-control-kirki-switch .switch label::after {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.customize-control-kirki-switch .switch label::after {
+  height: 16px !important;
+  top: 4px !important;
+}
+
+.customize-control-kirki-switch .switch-off, .customize-control-kirki-switch .switch-on {
+  line-height: 24px !important;
+}
+
+.customize-control-kirki-switch .switch-label .switch-off {
+  padding: 0 10px !important;
+}
+
+.customize-control-kirki-switch .switch-label .switch-on {
+  padding: 0 10px !important;
+}
