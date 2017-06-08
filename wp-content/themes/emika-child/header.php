@@ -187,6 +187,15 @@
 				endif;
                 ?>
 				<!--<h1><?php echo esc_html( $title ); ?></h1>-->
+                <script src="typed.js"></script>
+                <script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.element', {
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+                </script>
                 <div class="element"></div>
 
 				<?php 
@@ -212,4 +221,4 @@
 		</div>
 	</div>
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content"></div>
