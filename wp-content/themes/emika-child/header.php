@@ -4,7 +4,7 @@
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * @link https://devoper.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package Emika
  */
@@ -187,7 +187,7 @@
 				endif;
                 ?>
 				<!--<h1><?php echo esc_html( $title ); ?></h1>-->
-
+                <h1><div class="element"></div></h1>
 
 				<?php 
 				if ( !empty( $desc ) ) {
