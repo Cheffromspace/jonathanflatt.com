@@ -4,10 +4,11 @@
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * @link https://devoper.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package Emika
  */
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -34,35 +35,48 @@
 
 	<?php
 	if ( is_front_page() && is_home() ) : 
+
 		$enable_title = Kirki::get_option( 'emika_customizer', 'emika_home_title_enable' );
 		$enable_desc = Kirki::get_option( 'emika_customizer', 'emika_home_desc_enable' );
+
 		if ( $enable_title == 1 ) { 
 			$title = esc_html( get_theme_mod('emika_home_title') );
-            if ( empty($title) ) {
-                $title = get_bloginfo('name');
-            }
+
+			if ( empty($title) ) {
+				$title = get_bloginfo('name');
+			}
+
 		} else {
 			$title = '';
 		}
+
 		if ( $enable_desc == 1 ) { 
 			$desc = esc_html( get_theme_mod('emika_home_description') );
-            if ( empty($desc) ) {
-                $desc = get_bloginfo('description');
-            }
+
+			if ( empty($desc) ) {
+				$desc = get_bloginfo('description');
+			}
+
 		} else {
 			$desc = '';
 		}
+
 		$img = Kirki::get_option( 'emika_customizer', 'emika_front_page_bg_image' );
+
 		$header_class_1 = 'site-header main-header';
 		$header_class_2 = 'index-header-title';
 		$overlay = 'main-header-overlay';
 		$parallax = 'header-parallax'; 
+
 	elseif ( is_single() ) : 
 		$title = esc_html( get_the_title() );
+
 		$current_post = get_post( $id );
+
 		$enable_post_date = Kirki::get_option( 'emika_customizer', 'emika_single_page_date_enable' );
 		$enable_post_author = Kirki::get_option( 'emika_customizer', 'emika_single_page_author_enable' );
 		$author_name_value = Kirki::get_option( 'emika_customizer', 'emika_single_page_author_name' );
+
 		if ( $author_name_value == 'full-name' ) {
 			$author_name = get_the_author_meta( 'display_name', $current_post->post_author );
 		} else {
@@ -74,7 +88,7 @@
 				} 
 			}
 		}
-        
+		
 		$desc = '';
 		if ( $enable_post_date == 1 ) { $desc .= esc_html( emika_relative_time( get_the_date() ) ); } else { }
 		if ( $enable_post_date == 1 and $enable_post_author == 1 ) { $desc .= esc_html( ' / ' ); } else { }
@@ -83,16 +97,20 @@
 		$thumb_id = get_post_thumbnail_id();
 		$thumb_url = wp_get_attachment_image_src( $thumb_id, '', false );
 		$img = $thumb_url[0];
+
 		$header_class_1 = 'main-header';
 		$header_class_2 = 'post-header-title';
 		$overlay = 'main-header-overlay';
 		$parallax = 'header-parallax';
+
 	else : 
+
 		if  ( is_404() or is_search() or is_category() or is_tag() ) :
 			$title = esc_html( wp_title( '', false ) );
 		else :
 			$title = esc_html( get_the_title() );
 		endif;
+
 		if  ( is_category() or is_tag() ) : 
 			$img = Kirki::get_option( 'emika_customizer', 'emika_archive_bg_image' );
 		elseif ( is_search() ) :
@@ -104,6 +122,7 @@
 			$thumb_url = wp_get_attachment_image_src( $thumb_id, '', false );
 			$img = $thumb_url[0];
 		endif;
+
 		$header_class_1 = 'simple-page-header';
 		$header_class_2 = 'page-header-title';
 		$overlay = 'page-header-overlay';
@@ -128,6 +147,7 @@
 
 						<?php
 						$logo = Kirki::get_option( 'emika_customizer', 'emika_logo' );
+
 						if ( !empty($logo) ) { 
                         ?>
 						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $logo ); ?>" title="<?php esc_attr( bloginfo( 'name' ) ); ?>" alt="logo"></a>
@@ -146,6 +166,7 @@
 
 					<?php
 					$sidebar = Kirki::get_option( 'emika_customizer', 'emika_sidebar_enable' ); 
+
 					if ( $sidebar == 1 ) { ?>
 					<div class="widget-btn">
 						<button id="open-button" class="menu-button"><span></span></button>
@@ -157,15 +178,25 @@
 
 			<div class="<?php echo esc_attr( $header_class_2 ); ?>">
 				<?php
-                if ( is_single() ) :
-                    $enable_category = Kirki::get_option( 'emika_customizer', 'emika_single_page_category_enable' );
-                    if ( $enable_category == 1 ) {
-                        $category = get_the_category_list( esc_html__( '', 'emika' ) );
-                        echo '<span class="header-category">' . $category . '</span>';
-                    }
-                endif;
+				if ( is_single() ) :
+					$enable_category = Kirki::get_option( 'emika_customizer', 'emika_single_page_category_enable' );
+					if ( $enable_category == 1 ) {
+						$category = get_the_category_list( esc_html__( '', 'emika' ) );
+						echo '<span class="header-category">' . $category . '</span>';
+					}
+				endif;
                 ?>
-				<h1><?php echo esc_html( $title ); ?></h1>
+				<!--<h1><?php echo esc_html( $title ); ?></h1>-->
+                <script src="typed.js"></script>
+                <script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.element', {
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+                </script>
+                <div class="element"></div>
 
 				<?php 
 				if ( !empty( $desc ) ) {
@@ -190,4 +221,4 @@
 		</div>
 	</div>
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content"></div>
